@@ -1,0 +1,244 @@
+电脑硬件基本知识
+	个人桌面版：
+		CPU：
+			Intel:
+
+				台式机和笔记本：酷睿最强，奔腾次之，赛扬最弱。
+
+					酷睿- Core：i9 > i7 > i5 > i3
+						目前酷睿发展到第十代如：Core i7-1065G7；第九代 Core i9-9900K
+
+						命名：
+						一般由5个部分组成：品牌，品牌标识符，Gen标识，SKU数值，产品线后缀
+						Intel core i7-7500U
+							Intel core:品牌
+							i7:品牌标识符
+							7:Gen标识
+							500:SKU数值
+							U:产品线后缀
+								台式机方面：
+									K 可超频
+									H 高性能
+								笔记本方面
+									G 带AMD显卡，其CPU、GPU性能都很强大
+									HK 高性能，超频
+									HQ 高性能，四核
+									X 发烧级
+									XE 最顶级
+									T 低功耗
+									U 超低功耗
+									Y 极低功耗
+									M 移动模式
+									QM 四核移动模式
+					奔腾 - Pentium
+						Intel® Pentium® Silver J5040 Processor 
+							奔腾处理器编号由一个字母前缀和随后的一个四位字符数字序列号构成
+							奔腾处理器均为高性能双核台式机处理器，且同一处理器等级，编号越高表示特性越多
+					赛扬- Celeron
+						Intel® Celeron® Processor N4020
+						Celeron（赛扬）规则公式：Celeron +主频 
+						Celeron系列都直接采用频率标注，
+							Celeron 2.4GHz，频率越高就表示规格越高
+							赛扬处理器编号以3~4位数字序列或五位字符序列（一个字母前缀和四个Core数字）表示
+							同一处理器等级，编号越高表示特性越多
+				服务器：
+					至强- Xeon:
+						Intel® Xeon® Scalable
+						Intel® Xeon® D
+						Intel® Xeon® W
+						Intel® Xeon® E
+							原E5双路,E7系列:铂金(Platinum),金(Gold),银(Silver),铜(Bronze)
+								新一代命名规则
+
+									INTEL® XEON® GOLD 6246R PROCESSOR
+										处理器品牌：Xeon，至强
+										处理器品牌标识符（级别）：铂金（Platinum）、金（Gold）、银（Silver）、铜（Bronze）
+										SKU级别：8–Platinum,6/5–Gold,4-Silver,3-Bronze
+										代编号：2，代表第N代
+										SKU编号：46,具体 SKU（库存单位）编号
+										产品后缀：M
+											F：Fabric；集成Intel OmniPath Fabric
+											T：高 Tcase/扩展可靠性
+											M：每个CPU支持 1.5TB 内存容量，无则为 768GB
+											P：采用 FPGA 封装
+									前代命名规则
+										Intel® Xeon® Processor E3-1225 v3 75461
+											处理器品牌：Xeon，至强
+											处理器品牌标识符（级别）：E3、E5、E7
+											最大CPU数：第一个数字，代表处理器最多支持CPU数，规格有：1、2、4、8，分别代表1路、2路、4路、8路
+											封装接口类型：第二个数字，表示处理器封装接口类型，规格有：2、4、6、8
+											SKU编号：两位数字，值越大性能越高，也就是主频越高
+											产品后缀：M – 移动版，W – 工作站，L – 低功耗，留空 – 标准版
+											版本：处理器版本，如V2、V4
+							E5 单路，为工作站用途，命名为 Xeon W
+							E3 命名为 XEON E 代表Entry，入门级工作站处理器
+							原 Xeon D 保持不变
+					安腾-Itanium
+						Intel® Itanium® Processor 9550
+				智能手机，平板电脑及低成本PC：
+					凌动- Atom
+						INTEL ATOM® PROCESSOR P5942B
+
+							凌动处理器编号采用三位数字序列构成
+							同一处理器等级，编号越高表示特性越多
+							其中：
+							上网本级凌动处理器前缀为 N，
+							移动互联网终端凌动处理器前缀为 Z
+				可穿戴设备：
+					Quark
+						Intel® Quark™ SoC X1000
+			AMD
+				个人桌面：
+					AMD Ryzen
+						AMD Ryzen Threadripper
+								AMD Ryzen™ Threadripper™ 3990X
+						AMD Ryzen 9 > Ryzen 7 > AMD Ryzen 5 > AMD Ryzen 3
+							命名：
+								AMD Ryzen™ 5 3600X
+									AMD:品牌
+									Ryzen：产品名锐龙
+									5：系列
+									3：代数
+									6：分级
+									00：型号
+									X：后缀
+										X：支持XFR，简而言之可以超频如； 5 3600X
+										G：集成高性能核显
+										U：专门面向轻薄笔记本产品，超低功耗，TDP仅15W，还集成了Vega核显。
+				服务器：
+					AMD EPYC
+						AMD EPYC™ 7702
+					AMD Opteron
+						AMD Opteron™ X3421
+
+		主板：
+			规格：
+				E-ATX：豪
+				ATX：标准型
+				M-ATX：相对于标准
+				ITX：Mini-ATX
+
+			类型
+				支持intel：X299 Z390 Z370 Z270 C232 H370 B365 B360 B250 H310 H110 H81 H61
+					 100/200/300系列芯片组 支持Core酷睿
+					 	LGA 1151 (第一代) Kaby Lake(Core i 7代)
+					 		B150,Q150,H170,Q170,Z170,Q250,H270,Q270,
+					 		H110：6代/7代
+					 		B250:7代
+					 		Z270:6代/7代/8代处理器
+					 		C232:6代7代I5I7
+					 	LGA 1151 (第二代) Coffee Lake／Coffee Lake Refresh(Core i 8／9代)
+					 		B365:8代，9代
+					 		Z370:八代处理器,酷睿i3,i5,i7
+					 		H310：奔腾，酷睿i3 八代
+					 		B360/B365：酷睿i5，i7(后缀不带K) 8代，9代
+					 		H370:8代，9代兼容B360
+					 		Q370
+					 		Z390：酷睿i5,i7,i9(后缀带K)
+						10奈米架构改进版(10nm+)：Ice Lake（十代）
+							X299:i9-10XX
+				支持AMD：
+					760G:AM3+	
+					970:AM3+
+					A320:锐龙APU AM4	
+					A68H:FM2+	
+					TRX4:sTRX4
+					B350:AM4	
+					B450：第2，3代锐龙5，7 AM4	
+					TRX40:sTRX4	
+					X370:AM4
+					X399:sTR4	
+					X470：第2，3代锐龙7 AM4
+					X570：第2，3代锐龙7，第3代锐龙9  AM4
+		显卡-GPU：
+			接口：
+				ISA -> VGA显示器
+				VESA显卡
+				PCI显卡
+				AGP显卡
+				PCI Express显卡
+				外接PCI Express显卡
+			显存内存（RAM）类型：
+				HBM：High Bandwidth Memory 高带宽存储器 双倍速率，但是堆叠提高位宽。
+					HBM
+					HBM2
+				GDDR：Graphics Double Data Rate 可以做到四倍速率
+					GDDR6 
+					GDDR5 
+					GDDR4
+					XGDDR4 
+					GDDR3
+			NVIDIA芯片：
+				NVIDIA GeForce
+					NVIDIA TITAN RTX：豪
+					RTX 20 SERIES
+						RTX 2080 Ti
+						RTX 2080 SUPER
+						RTX 2080
+						RTX 2070 SUPER
+						RTX 2070
+						RTX 2060 SUPER
+						RTX 2060
+					GTX 16 系列
+						GTX 1660 SUPER
+						GTX 1660 Ti + 1660
+						GTX 1650 SUPER
+						GTX 1650
+			AMD芯片：
+				Radeon
+					Radeon RX 5000 系列
+						RADEON RX 5700 XT
+						RADEON RX 5700 XT 50 周年纪念版
+						RADEON™ RX 5700
+						RADEON™ RX 5600 XT
+						RADEON™ RX 5600
+						RADEON™ RX 5500 XT
+					Radeon RX Vega 系列
+						RADEON RX VEGA 64
+						RADEON RX VEGA 56
+					Radeon RX 500 系列
+						RADEON RX 590
+						RADEON RX 580
+						RADEON RX 570
+						RADEON RX 560 XT
+						RADEON RX 560
+						RADEON RX 550/550
+		内存：Random Access Memory ——> RAM
+			HBM：High Bandwidth Memory 高带宽存储器 双倍速率，但是堆叠提高位宽。
+			GDDR：Graphics Double Data Rate 可以做到四倍速率
+			DRAM:Dynamic Random Access Memory 动态随机存取存储器 需要不断的刷新
+			SRAM:Static Random Access Memory 静态随机存取存储器
+			SDRAM:synchronous dynamic random-access memory
+				DDR:双倍数据率同步动态随机存取存储器 同步动态内存
+					DDR
+					DDR2
+					DDR3
+					DDR4:主流
+		硬盘：Hard Disk Drive HDD
+			转速：rpm
+			接口：
+				ATA（又称IDE）：并口，速率133MB/s
+				SATA：串口，SATA-II速率300MiB/s，SATA-III速率600MiB/s
+				SCSI：小型机系统接口，SCSI-1速率40 Mbps(5MB/sec)，SCSI-2速率10 MB/sec，SCSI-3速率Ultra-Wide为20 MB/sec，Ultra-Wide SCSI为40 MB/sec
+				SAS：兼容SATA硬盘，三代速率12Gb/s，四代速率24Gb/s
+				FC:网状通道,Fibre Channel  热插拔性,高速带宽2Gbps、4Gbps、8Gbps和16Gbps,远程连接
+			主引导记录:Master Boot Record，缩写：MBR
+
+			全局唯一标识分区表:GUID Partition Table，缩写：GPT
+
+			机械硬盘：
+			SSD固态硬盘：
+		电源：各耗电组件的耗电W数之和乘以1.5即可
+		显示器
+			接口：DP>HDMI>DVI>VGA。
+				DP HDMI VGA DVI
+			分辨率
+				720p：1280×720
+				1080p：1920×1080
+				WUXGA：1920×1200
+				2K：2048×[未指定值]
+				UHD：3840×2160
+				4K：4096×[未指定值]
+				8K：7680×4320
+			刷新频率
+
